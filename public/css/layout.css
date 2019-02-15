@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/benjamin-sow-775414-unsplash.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -144,6 +144,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
+#nav-wrap > button.mobile-btn { display: none; }
 
 ul#nav {
    min-height: 48px;

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 export default class Contact extends Component {
     render() {
+        const me = this.props.resumeData;
+
         return (
             <section id="contact">
                 <div className="row section-head">
@@ -9,83 +11,27 @@ export default class Contact extends Component {
                         <h1><span>Get In Touch.</span></h1>
                     </div>
                     <div className="ten columns">
-                        <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                          voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-      </p>
+                        <p className="lead">I'm open to new challenges and opportunities. Please leave your message below from provided or contact me via my contact details. I'll get back to you shortly.</p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="eight columns">
-                        {/* form */}
-                        <form action method="post" id="contactForm" name="contactForm">
-                            <fieldset>
-                                <div>
-                                    <label htmlFor="contactName">Name <span className="required">*</span></label>
-                                    <input type="text" defaultValue size={35} id="contactName" name="contactName" />
-                                </div>
-                                <div>
-                                    <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                                    <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
-                                </div>
-                                <div>
-                                    <label htmlFor="contactSubject">Subject</label>
-                                    <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
-                                </div>
-                                <div>
-                                    <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                                    <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
-                                </div>
-                                <div>
-                                    <button className="submit">Submit</button>
-                                    <span id="image-loader">
-                                        <img alt="Loader" src="images/loader.gif" />
-                                    </span>
-                                </div>
-                            </fieldset>
-                        </form> {/* Form End */}
-                        {/* contact-warning */}
-                        <div id="message-warning"> Error boy</div>
-                        {/* contact-success */}
-                        <div id="message-success">
-                            <i className="fa fa-check" />Your message was sent, thank you!<br />
-                        </div>
+                        <iframe title="contact me" src="https://docs.google.com/forms/d/e/1FAIpQLScopB-JhDoNvHJ32rUexm_2MFzRGIlrLEM2_4vOeN5_U1yVUA/viewform?embedded=true" width="100%" height="1032" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>
                     </div>
                     <aside className="four columns footer-widgets">
                         <div className="widget widget_contact">
                             <h4>Address and Phone</h4>
                             <p className="address">
-                                Jonathan Doe<br />
-                                1600 Amphitheatre Parkway <br />
-                                Mountain View, CA 94043 US<br />
-                                <span>(123) 456-7890</span>
+                                <span>{me.name}</span><br />
+                                <span>{me.address}<br />
+                                    {me.city}, {me.state} {me.postcode} {me.country}
+                                </span><br />
+                                <span><a href={`callto:${me.mobile}`}>{me.mobile}</a></span>
                             </p>
-                        </div>
-                        <div className="widget widget_tweets">
-                            <h4 className="widget-title">Latest Tweets</h4>
-                            <ul id="twitter">
-                                <li>
-                                    <span>
-                                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-              {/* <a href="#">http://t.co/CGIrdxIlI3</a> */}
-                                    </span>
-                                    {/* <b><a href="#">2 Days Ago</a></b> */}
-                                </li>
-                                <li>
-                                    <span>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                        eaque ipsa quae ab illo inventore veritatis et quasi
-              {/* <a href="#">http://t.co/CGIrdxIlI3</a> */}
-                                    </span>
-                                    {/* <b><a href="#">3 Days Ago</a></b> */}
-                                </li>
-                            </ul>
                         </div>
                     </aside>
                 </div>
             </section>
-
         );
     }
 }

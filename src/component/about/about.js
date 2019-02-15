@@ -3,6 +3,8 @@ import React from 'react'
 export default class About extends React.Component {
   render() {
     const me = this.props.resumeData;
+    const startYear = new Date("July 2014").getFullYear();
+    const yearNow = new Date().getFullYear();
 
     return (
       <section id="about">
@@ -12,12 +14,8 @@ export default class About extends React.Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>I am an experienced consultant with 5 years working within the IT Industry across multiple business domains including automotive, services, information technology and government.
-      I also have a bachelor degree of information technology and have been certified as a developer programmer by ACS and a Sitecore developer.</p>
-      
-<p>      In my most recent roles, I worked as a web developer for the Get Healthy at Work website enhancements project team. During the project time, I did the following tasks; technical advices on existing system analysis, UI implementation, evaluated technical feasibility, researched and used his .Net and Sitecore skills to meet the requirements and timeline, developed and integrated web site on Sitecore CMS, and produced documents.
-</p>
-
+            <p>I am an experienced consultant with {yearNow - startYear} years working within the IT Industry across multiple business domains including automotive, services, information technology and government as a certified Sitecore developer in a platinum Sitecore solution partner company. 
+              I also have a bachelor degree of information technology and have been certified as a developer programmer by ACS.</p>
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
@@ -27,7 +25,7 @@ export default class About extends React.Component {
                     {me.city}, {me.state} {me.postcode} {me.country}
                   </span><br />
                   <span><a href={`callto:${me.mobile}`}>{me.mobile}</a></span><br />
-                  <span><a href={`mailto:${me.email}?subject=Job opportunity`}>{me.email}</a></span>
+                  <span><a href={`mailto:${me.email}`}>{me.email}</a></span>
                 </p>
               </div>
               <div className="columns download">
