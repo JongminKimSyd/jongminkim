@@ -15,7 +15,7 @@ export default class About extends React.Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>I am an experienced consultant with {year} years working within the IT Industry across multiple business domains including automotive, services, information technology and government as a certified Sitecore developer in a platinum Sitecore solution partner company. 
+            <p>I am an experienced consultant with {year} years working within the IT Industry across multiple business domains including automotive, services and government. I'm also a certified Sitecore developer who has experience working in a platinum Sitecore solution partner company. 
               I also have a bachelor degree of information technology and have been certified as a developer programmer by ACS.</p>
             <div className="row">
               <div className="columns contact-details">

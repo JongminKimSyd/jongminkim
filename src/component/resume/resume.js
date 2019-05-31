@@ -52,42 +52,11 @@ export default class Resume extends React.Component {
                         <div className="row item">
                             <div className="twelve columns">
                                 <h3>University of Canberra</h3>
-                                <p className="info">Bachelor of Information Technology <span>•</span> <em className="date">Feb 2014</em></p>
-                                <p>The course focuses on the systems development aspects of employment in the information technology profession. During the course I gained following experience.</p>
-                                <ul>
-                                    <li>Extensive experience in developing information technology to address the needs of modern organisations</li>
-                                    <li>Teamwork, project management and communication skills</li>
-                                    <li>Exploration of the technical and human aspects of information technology and its use</li>
-                                    <li>Information technology
-                                            <ul>
-                                            <li>Hardware concepts</li>
-                                            <li>Local and worldwide networks</li>
-                                            <li>Data structures and algorithms</li>
-                                            <li>Object-oriented software design</li>
-                                            <li>Operating systems</li>
-                                            <li>Programming theory and practice</li>
-                                            <li>Distributed systems theory</li>
-                                            <li>Software quality management</li>
-                                        </ul>
-                                    </li>
-                                    <li>Information Systems
-                                            <ul>
-                                            <li>Database management</li>
-                                            <li>Human-computer interaction</li>
-                                            <li>Information systems analysis and design</li>
-                                            <li>Document and workflow and management support</li>
-                                        </ul>
-                                    </li>
-                                    <li>Programming environments
-                                            <ul>
-                                            <li>.Net and Linux</li>
-                                            <li>Various web design and programming tools</li>
-                                        </ul>
-                                    </li>
-                                    <li>Extensive practical experience using Visual Basic .Net, C++ and C# within the Microsoft .Net Framework</li>
-                                    <li>Analysis and specification methods include UML, XML, structured and soft systems methodologies.</li>
-                                    <li>In final year of study, completed a team project, producing and implementing a substantial software-based system to address a need of a local business, government or community organisation.</li>
-                                </ul>
+                                <p className="info">Bachelor of Information Technology <span>•</span> <em className="date">Dec 2013</em></p>
+                                <p>This course has provided me extensive experience in developing information technology to address the needs of modern organisations, Teamwork, project management and communication skills, 
+                                Exploration of the technical and human aspects of information technology and its use, Extensive practical experience using Visual Basic .Net, C++ and C# within the Microsoft .Net Framework,
+                                Analysis and specification methods include UML, XML, structured and soft systems methodologies.
+                                </p>
                             </div>
                         </div> {/* item end */}
                     </div> {/* main-col end */}
