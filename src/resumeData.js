@@ -9,15 +9,16 @@ let resumeData = {
     "location": "Sydney",
     "country": "Australia",
     "role": ["Sitecore Developer", "Frontend Developer", "Web Developer", "Consultant" ],
-    skills: [
+    skills: [        
+        {skillname:"Sitecore", barwidth: "90"},
         {skillname:"JavaScript", barwidth: "85"},
         {skillname:"CSS", barwidth: "90"},
         {skillname:"HTML5", barwidth: "95"},
-        {skillname:"jQuery", barwidth:"90"},
+        {skillname:"jQuery", barwidth:"90"},        
+        {skillname:"KnockOutJS", barwidth: "70"},
         {skillname:"React", barwidth: "70"},
         {skillname:"AngularJS", barwidth: "50"},
-        {skillname:"Sitecore", barwidth: "70"},
-        {skillname:"ASP.NET MVC", barwidth: "65"},
+        {skillname:"ASP.NET MVC", barwidth: "75"},
     ],
     works: [
         {
