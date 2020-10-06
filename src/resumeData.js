@@ -3,13 +3,12 @@ let resumeData = {
     "name": "Jongmin Kim",
     "email": "posthink2@gmail.com",
     "mobile": "0422182898",
-    "address": "U 504 / 19 Epping Rd",
-    "city": "Epping",
+    "city": "Sydney",
     "state": "NSW",
-    "postcode": "2121",
+    "postcode": "2000",
     "location": "Sydney",
     "country": "Australia",
-    "role": ["Frontend Developer", "Consultant", "Sitecore / .Net Developer"],
+    "role": ["Sitecore Developer", "Frontend Developer", "Web Developer", "Consultant" ],
     skills: [
         {skillname:"JavaScript", barwidth: "85"},
         {skillname:"CSS", barwidth: "90"},
@@ -111,7 +110,8 @@ let resumeData = {
         }
     ],
     workhistory: [
-        {name: "Oakton Ltd.", position: "Consultant", startDate: "January 2015", endDate: "", workDescription: "Providing an externally facing service to clients in the development of industry specific strategic business solutions aligned to projects and consulting assignments"},
+        {name: "NRMA", position: "Web developer", startDate: "July 2019", endDate: "", workDescription: "Developing Thrifty website"},
+        {name: "Oakton Ltd.", position: "Consultant", startDate: "January 2015", endDate: "June 2019", workDescription: "Providing an externally facing service to clients in the development of industry specific strategic business solutions aligned to projects and consulting assignments"},
         {name: "HotHouse Interactive", position: "Front end developer", startDate: "July 2014", endDate: "Jan 2015", workDescription: "Developing and maintaining public websites in an agile environment"}
     ],
     "sns": [
