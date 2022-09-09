@@ -111,8 +111,8 @@ let resumeData = {
         }
     ],
     workhistory: [
-        {name: "NRMA", position: "Web developer", startDate: "July 2019", endDate: "", workDescription: "Developing Thrifty website"},
-        {name: "Oakton Ltd.", position: "Consultant", startDate: "January 2015", endDate: "June 2019", workDescription: "Providing an externally facing service to clients in the development of industry specific strategic business solutions aligned to projects and consulting assignments"},
+        {name: "NRMA", position: "Senior Web developer", startDate: "July 2019", endDate: "", workDescription: "Working as myNRMA Lead Developer, Thrifty/Sixt Tech Lead"},
+        {name: "Oakton Ltd.", position: "Consultant", startDate: "January 2015", endDate: "June 2019", workDescription: "Providing a professional service in the development of strategical business solutions aligned to projects and consulting assignments"},
         {name: "HotHouse Interactive", position: "Front end developer", startDate: "July 2014", endDate: "Jan 2015", workDescription: "Developing and maintaining public websites in an agile environment"}
     ],
     "sns": [
