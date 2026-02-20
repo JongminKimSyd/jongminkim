@@ -10,15 +10,15 @@ let resumeData = {
     "country": "Australia",
     "role": ["Sitecore Developer", "Frontend Developer", "Web Developer", "Consultant" ],
     skills: [        
-        {skillname:"Sitecore", barwidth: "90"},
-        {skillname:"JavaScript", barwidth: "85"},
-        {skillname:"CSS", barwidth: "90"},
-        {skillname:"HTML5", barwidth: "95"},
+        {skillname:"Sitecore", barwidth: "100"},
+        {skillname:"ASP.NET MVC", barwidth: "95"},
+        {skillname:"JavaScript", barwidth: "90"},
+        {skillname:"React", barwidth: "90"},
+        {skillname:"HTML5", barwidth: "95"},        
+        {skillname:"CSS", barwidth: "85"},
         {skillname:"jQuery", barwidth:"90"},        
-        {skillname:"KnockOutJS", barwidth: "70"},
-        {skillname:"React", barwidth: "70"},
-        {skillname:"AngularJS", barwidth: "50"},
-        {skillname:"ASP.NET MVC", barwidth: "75"},
+        {skillname:"KnockOutJS", barwidth: "85"},        
+        {skillname:"AngularJS", barwidth: "50"},        
     ],
     works: [
         {
@@ -60,7 +60,7 @@ let resumeData = {
             thumbnailImageUrl: "images/portfolio/hyundai.jpg",
             metaDescription: "Intranet development",
             heroImage: "images/portfolio/modals/hynet.jpg",
-            jobname: "Avant Mutual Intranet",
+            jobname: "Hyundai Intranet",
             jobdescription: "Implementing web parts and page layouts",
             jobcategory: "Web development, Sharepoint",
             joburl: ""
