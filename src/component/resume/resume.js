@@ -58,7 +58,7 @@ export default class Resume extends React.Component {
                         <h1><span>Skills</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        <p>I have particular strengths in front end development including UI/UX prototyping, front end development, technical consultation, source code management, technical documentation and estimation. I have worked on a variety of projects maintaining, developing and integrating Australian websites and web services using latest technologies.</p>
+                        <p>My core strengths lie in front-end engineering, responsive UX implementation, technical consultation, source control, documentation and solution estimation. I have worked across a range of enterprise and public-sector projects, delivering maintainable, user-focused web experiences using current technologies and best practices.</p>
                         <div className="bars">
                             <ul className="skills">
                                 {skillRows}
@@ -76,9 +76,7 @@ export default class Resume extends React.Component {
                             <div className="twelve columns">
                                 <h3>University of Canberra</h3>
                                 <p className="info">Bachelor of Information Technology <span>•</span> <em className="date">Dec 2013</em></p>
-                                <p>This course has provided me extensive experience in developing information technology to address the needs of modern organisations, Teamwork, project management and communication skills,
-                                    Exploration of the technical and human aspects of information technology and its use, Extensive practical experience using Visual Basic .Net, C++ and C# within the Microsoft .Net Framework,
-                                    Analysis and specification methods include UML, XML, structured and soft systems methodologies.
+                                <p>This degree developed a strong foundation in software design, systems thinking, project delivery and communication. It included practical experience across .NET development, object-oriented programming, systems analysis and structured methodologies, equipping me to deliver effective technology solutions in real-world business settings.
                                 </p>
                             </div>
                         </div> {/* item end */}

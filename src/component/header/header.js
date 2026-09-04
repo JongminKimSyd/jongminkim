@@ -22,8 +22,7 @@ export default class Header extends Component {
         <div className="row banner">
             <div className="banner-text">
                 <h1 className="responsive-headline">I'm {data.name}.</h1>
-                <h3>I'm a {data.location} based <span>{data.role[0]}</span>, <span>{data.role[1]}</span> and <span>{data.role[2]}</span> creating awesome and
-                    productive web application for enterprises around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                <h3>I'm a {data.location}-based <span>{data.role[0]}</span>, <span>{data.role[1]}</span>, and <span>{data.role[2]}</span> delivering high-quality digital experiences for enterprise and government clients. Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about my work</a>.</h3>
                 <hr />
                 <SocialList sns={data.sns} listType="social" />
             </div>
