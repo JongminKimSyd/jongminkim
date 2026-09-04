@@ -38,7 +38,7 @@ class PortfolioItemModal extends React.Component {
                 <div className="link-box">
                     {item.joburl.length > 0 &&
                     <a href={item.joburl}>Details</a>}
-                    <a className="popup-modal-dismiss">Close</a>
+                    <a className="popup-modal-dismiss" href="#portfolio">Close</a>
                 </div>
             </div>
         );
