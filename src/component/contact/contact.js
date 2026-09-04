@@ -11,7 +11,7 @@ export default class Contact extends Component {
                         <h1><span>Get In Touch.</span></h1>
                     </div>
                     <div className="ten columns">
-                        <p className="lead">I'm open to new challenges and opportunities. Please leave your message in the form below or contact me via my contact details.</p>
+                        <p className="lead">I welcome new opportunities to collaborate on digital products, enterprise websites and user-focused web experiences. Please get in touch using the form below or contact details provided.</p>
                     </div>
                 </div>
                 <div className="row">
